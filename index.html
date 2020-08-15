@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Momonton</title>
+    <link rel="stylesheet" href="/src/css/styles.css" />
+  </head>
+  <body>
+    <div class="js-clock">
+      <span class="clockTitle">00:00</span>
+    </div>
+    <div class="js-name">
+      <form action="" class="js-form nameForm">
+        <input type="text" placeholder="이름을 입력하세요!" />
+      </form>
+      <h4 class="js-greeting greeting"></h4>
+      <h4 class="js-name name"></h4>
+    </div>
+    <div class="js-toDoList">
+      <form id="js-form">
+        <input type="text" placeholder="해야 할 일을 입력하세요" />
+      </form>
+
+      <div>
+        <h3>미완료 일정</h3>
+        <ul id="js-pending"></ul>
+      </div>
+
+      <div>
+        <h3>완료된 일정</h3>
+        <ul id="js-finished"></ul>
+      </div>
+    </div>
+    <script src="./src/js/clock.js"></script>
+    <script src="./src/js/inputName.js"></script>
+    <script src="./src/js/toDoList.js"></script>
+  </body>
+</html>

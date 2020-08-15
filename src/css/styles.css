@@ -1,0 +1,17 @@
+.nameForm {
+  display: none;
+}
+
+.showing {
+  display: block;
+  animation: opacity 1.5s linear;
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
