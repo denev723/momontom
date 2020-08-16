@@ -6,11 +6,10 @@ Cloning momentum with vanilla JS
 ******************************************
 
 
-- [ ] To do list
-- [ ] Input name
-- [ ] Pending list
-- [ ] Finish list
-- [ ] Intro
-- [ ] Wether geolocation
-- [ ] Random background
-- [ ] Clock
+- [x] To do list
+- [x] Input name
+- [x] Pending list
+- [x] Finish list
+- [x] Wether geolocation
+- [x] Random background
+- [x] Clock
