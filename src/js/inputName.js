@@ -2,9 +2,11 @@ const inputNameContainer = document.querySelector(".js-name");
 const inputNameForm = inputNameContainer.querySelector(".js-form");
 const inputName = inputNameForm.querySelector("input");
 const greeting = document.querySelector(".js-greeting");
+const toDoForm = document.querySelector(".js-toDoList");
 
 const USER_LS = "currentUser",
-  SHOWING = "showing";
+  SHOWING = "showing",
+  HIDING = "hiding";
 
 function askForName() {
   inputNameForm.classList.add(SHOWING);
@@ -34,6 +36,8 @@ function loadName() {
 function paintGreeting(text) {
   inputNameForm.classList.remove(SHOWING);
   greeting.classList.add(SHOWING);
+  toDoForm.classList.remove(HIDING);
+  toDoForm.classList.add(SHOWING);
   greeting.innerText = `안녕하세요! ${text} 님!`;
 }
 
